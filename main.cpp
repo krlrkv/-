@@ -38,7 +38,7 @@ int main(){  //создаем динамический массив структур
        cout << k.brand << "\t\t" << k.power << "\t\t" << k.serialNumber << endl; // Находим индекс самого мощного чайника
     }
     int mostPowerfulIndex = findMostPowerfulKettle(kettles);
-    cout << "Самый мощный чайник: " << kettles[mostPowerfulIndex].serialNumber << endl;
+    cout << "Самый мощный чайник: " << kettles[mostPowerfulIndex].serialNumber;
 
     stringstream ss;
     for (const auto& k : kettles){
